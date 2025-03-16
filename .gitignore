@@ -3,5 +3,4 @@ venv
 .idea
 __pycache__
 project_analysis.md
-cache/
 results.csv
