@@ -17,7 +17,7 @@ CoeuSearch is an NLP based intelligent local-file search engine that searches fo
 
 #### Files Supported
 - File Content: .docx, .txt, .pdf, .ppt, .csv
-- File Name: ALL including images, audio and video files
+- File Name: ALL excluding images, audio and video files
 
 ### _System Design_
 
