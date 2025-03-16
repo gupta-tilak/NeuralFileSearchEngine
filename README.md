@@ -4,7 +4,7 @@ In Greek mythology, _Coeus_ was the Titan-god of the inquisitive mind, his name 
 
 ## _Neural File Search Engine_
 
-![CoeuSearch-Demo](https://github.com/abhinav-bohra/CoeuSearch/blob/main/Documentation/CoeuSearch-Demo.gif)
+![CoeuSearch-Demo](https://github.com/gupta-tilak/NeuralFileSearchEngine/blob/main/Documentation/CoeuSearch-Demo.gif)
 
 CoeuSearch is an NLP based intelligent local-file search engine that searches for relevant text documents in a specific folder, considering the semantics of the file’s name & it's content and returns the most relevant files.
 
@@ -21,25 +21,26 @@ CoeuSearch is an NLP based intelligent local-file search engine that searches fo
 
 ### _System Design_
 
-![CoeuSearch-Design](https://github.com/abhinav-bohra/CoeuSearch/blob/main/Documentation/Design.png)
+![CoeuSearch-Design](https://github.com/gupta-tilak/NeuralFileSearchEngine/blob/main/Documentation/Design.png)
 ## Getting Started
 
 Download or clone this repository on your system.
 
 ### Prerequisites
 ```
-- PYTHON 3.8.1
-- DJANGO 1.1.2
+- PYTHON >= 3.8.1
+- DJANGO >= 1.1.2
 ```
 ### Installing
 - Install python3 on your system
 - Add python to environment variables
 - Navigate to 'CoeuSearch' folder in terminal 
-- Create an evironment using the following command -> virtualenv CoeuSearch
+- Create an evironment using the following command -> python3 -m venv venv
 - Activate the evironment using the following command  
 ```
-     .\CoeuSearch\Scripts\activate    (For Windows)
-      source CoeuSearch\bin\activate  (For Ubuntu)
+     .\venv\Scripts\activate    (For Windows)
+      source venv\bin\activate  (For Ubuntu)
+      source venv/bin/activate  (For MacOS) 
 ```
 - Run command ```pip3 install -r requirements.txt```
 - Change ```cache_base_path``` in configs.py according to your machine path
