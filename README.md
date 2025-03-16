@@ -43,6 +43,8 @@ Download or clone this repository on your system.
       source venv/bin/activate  (For MacOS) 
 ```
 - Run command ```pip3 install -r requirements.txt```
+- Run command ```python3 download_nltk_data.py```
+- Install openssl ( for macOS run ```brew install openssl```)
 - Change ```cache_base_path``` in configs.py according to your machine path
 - Run command ```python3 manage.py runserver```
 - Click on localhost link generated after execution of previous command
